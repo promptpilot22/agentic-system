@@ -11,3 +11,7 @@ node_modules/
 
 # Logs
 *.log
+
+# Supabase CLI local state
+supabase/.temp/
+supabase/.branches/
