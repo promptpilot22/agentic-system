@@ -48,3 +48,27 @@
 - Decision: Opus for creative-director + quality-reviewer; Sonnet for research/writing/design; Haiku for feedback-router; deterministic logic for date math and compositing.
 - Rationale: Spend reasoning budget where judgment matters most.
 - Consequences: Revisit tiers with real cost/quality data via `/self-improve`.
+
+## ADR-005: Cultural-sensitivity checklist must persist an explicit outcome, not just an optional flag
+- Date: 2026-08-16
+- Status: proposed
+- Context: An end-to-end eval found no way to tell "checklist ran, nothing to flag" apart from "checklist never ran" for Pakistani-category events — only the one Islamic event carried any stored sensitivity data.
+- Decision: `EventBrief.sensitivity_flags` should always be accompanied by an explicit `cultural_review_completed: true` marker (or equivalent) for every event in the Islamic/Pakistani/cultural categories, even when the list is empty.
+- Rationale: Auditability — reviewers and future eval passes need proof the checklist ran, not silence to infer it from.
+- Consequences: `event-researcher` schema gains a field; `quality-reviewer` should treat a missing marker (not just a raised flag) as a `revise`-worthy gap for these categories. Requires a prompt/schema edit — see open proposal in conversation before applying.
+
+## ADR-006: Add a deterministic brand-palette check to quality review
+- Date: 2026-08-16
+- Status: proposed
+- Context: independence-day concepts scored 8-9/10 on LLM-judged brand alignment while using Pakistan flag colors that don't appear anywhere in the ABA Center palette — the LLM score alone missed an objectively checkable violation.
+- Decision: Add a cheap deterministic check (same spirit as the existing embedding-similarity diversity backstop) that compares each `VisualSpec.color_palette` against the brand's stored hex list; a mismatch hard-flags rather than only lowering a score.
+- Rationale: Objective, cheap, and catches exactly the kind of miss an LLM grader is prone to when the surrounding content (national holiday, national colors) makes the wrong choice feel intuitively "on-theme."
+- Consequences: `quality-reviewer` or `/compose-post` gains a palette-match step. Requires a prompt/tooling edit — see open proposal in conversation before applying.
+
+## ADR-007: Pin Turbopack workspace root when multiple lockfiles exist in the repo
+- Date: 2026-08-16
+- Status: accepted
+- Context: A root-level `package.json`/`package-lock.json` (added for `db/` tooling) alongside `frontend/`'s own lockfile made Turbopack infer the wrong workspace root, breaking the RSC client manifest on every route — a 500 on `/` and `/login` before any dev-server code even ran.
+- Decision: `frontend/next.config.mjs` pins `turbopack.root` explicitly to the frontend directory.
+- Rationale: Smallest fix; keeps both lockfiles (db tooling vs. frontend) without forcing a monorepo restructure.
+- Consequences: Don't remove this pin on a future Next.js upgrade without re-verifying `/` and `/login` return 200 with a clean `.next` cache.
