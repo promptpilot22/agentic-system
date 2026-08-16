@@ -1,0 +1,103 @@
+{
+  "event_id": "iqbal-day",
+  "brand_id": "aba-center",
+  "brief": {
+    "event_id": "iqbal-day",
+    "summary": "Iqbal Day, observed every November 9, marks the birthday of Allama Muhammad Iqbal (born 1877, Sialkot) — poet, philosopher, and widely regarded as the ideological founder of Pakistan. At the 1930 Allahabad Address he was the first to articulate the two-nation theory that led to Pakistan's creation in 1947.",
+    "key_messages": [
+      "Iqbal is remembered as the 'Poet of the East' for his Urdu and Persian poetry.",
+      "His philosophy of Khudi (selfhood) and the symbol of the Shaheen (eagle) continue to inspire national pride and resilience, especially among youth.",
+      "Iqbal Day was reinstated as an official public holiday in 2022 after being discontinued in 2015."
+    ],
+    "dos": [
+      "Frame Iqbal as an inspirational, unifying figure for students and educators.",
+      "Reference Khudi/Shaheen to connect with a youth audience.",
+      "Keep tone reverent and educational."
+    ],
+    "donts": [
+      "Do not wade into modern partisan debates about Iqbal's legacy.",
+      "Do not fabricate quotes or verses without a verifiable source.",
+      "Avoid dry/academic language given the brand's warm tone."
+    ],
+    "sensitivity_flags": [],
+    "recommended_tone": "Inspirational, reverent, educational",
+    "audience": "Students and educators",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Iqbal_Day",
+      "https://www.dawn.com/news/1870725",
+      "https://www.zameen.com/blog/iqbal-day-significance-history-pakistan.html"
+    ],
+    "unverified_claims": [
+      "'Ideological founder'/'spiritual father of Pakistan' is a widely repeated characterization, not a formal title — flagged as reputation, not fact."
+    ]
+  },
+  "concepts": [
+    {
+      "concept_id": "iqbal-day-c1",
+      "archetype": "Emotional",
+      "core_message": "Every child carries a spark of Khudi (selfhood) — the belief that you can become who you're meant to be",
+      "visual_direction": "A child looking up toward a bright sky/horizon, soft warm-glow lighting",
+      "copy": {
+        "one_liner": "Every child carries a spark of Khudi.",
+        "caption": "Allama Iqbal believed each of us holds the power to become who we're meant to be. This Iqbal Day, remind the next generation that their own spark of self-belief is worth nurturing.",
+        "cta": "Nurture the spark in your child today.",
+        "hashtags": ["#IqbalDay", "#AllamaIqbal", "#Khudi"]
+      },
+      "visual": {
+        "color_palette": ["#F4A259", "#FDF6EC"],
+        "layout_instructions": "Portrait poster; child silhouette bottom third looking toward a bright horizon; headline across the clear upper two-thirds; logo bottom-right, clear space = logo height ÷ 2",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Warm, soft-lit illustration of a young child looking upward toward a bright horizon, warm orange-to-cream gradient background, rounded soft shapes, child-friendly and hopeful mood, no rendered text, negative space reserved at top",
+        "composition_notes": "Keep top two-thirds clear for headline overlay; soft shadows only, no hard edges"
+      }
+    },
+    {
+      "concept_id": "iqbal-day-c2",
+      "archetype": "Educational",
+      "core_message": "Meet the poet who first dreamed of Pakistan, 17 years before it existed",
+      "visual_direction": "A timeline/quill-and-book motif referencing 1930 Allahabad Address to 1947",
+      "copy": {
+        "one_liner": "Meet the poet who dreamed of Pakistan.",
+        "caption": "In 1930, seventeen years before Pakistan existed, Allama Iqbal was the first to give voice to the idea in his historic Allahabad Address. Born in Sialkot in 1877, he became known across the world as the 'Poet of the East.'",
+        "cta": "Share his story with a student today.",
+        "hashtags": ["#IqbalDay", "#AllamaIqbal", "#9November"]
+      },
+      "visual": {
+        "color_palette": ["#5B8E7D", "#F4E285"],
+        "layout_instructions": "Landscape poster; thin timeline strip along the bottom (1877 to 1930 to 1947); headline top-left, supporting icon top-right",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Clean, minimal illustration of an open book with a quill, soft sage-to-yellow gradient background, small timeline markers rendered as simple dots, tidy and academic-friendly but warm, no rendered text",
+        "composition_notes": "Keep timeline strip and headline area clear of illustration detail"
+      }
+    },
+    {
+      "concept_id": "iqbal-day-c3",
+      "archetype": "Modern",
+      "core_message": "Aim high. Fly like the Shaheen.",
+      "visual_direction": "Minimal eagle silhouette, high contrast, negative space",
+      "copy": {
+        "one_liner": "Fly like the Shaheen.",
+        "caption": "Iqbal's eagle — the Shaheen — never settles for less than the sky.",
+        "cta": "Aim higher today.",
+        "hashtags": ["#IqbalDay", "#Shaheen"]
+      },
+      "visual": {
+        "color_palette": ["#2E2E2E", "#F4A259"],
+        "layout_instructions": "Square poster; centered minimal eagle silhouette icon; short headline below icon; logo bottom-right",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Stark minimal silhouette of an eagle in flight, high contrast dark-to-warm gradient background, generous negative space, bold and modern, no rendered text",
+        "composition_notes": "Icon stays small and centered; leave wide margins so the headline reads as a bold, separate statement"
+      }
+    }
+  ],
+  "review": {
+    "per_concept": [
+      {"concept_id": "iqbal-day-c1", "verdict": "pass", "notes": "Khudi correctly attributed; palette matches brand; distinct emotional angle"},
+      {"concept_id": "iqbal-day-c2", "verdict": "pass", "notes": "1930/1877/17-years facts match brief; palette matches brand; distinct educational angle"},
+      {"concept_id": "iqbal-day-c3", "verdict": "pass", "notes": "Shaheen ties directly to Iqbal's own symbolism, not generic; palette matches brand; distinct modern angle"}
+    ],
+    "diversity_score": 9,
+    "cultural_review_completed": true,
+    "flags": []
+  }
+}

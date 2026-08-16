@@ -1,0 +1,85 @@
+{
+  "event_id": "independence-day",
+  "brand_id": "aba-center",
+  "brief": {
+    "event_id": "independence-day",
+    "summary": "Pakistan Independence Day, observed 14 August, marks the country's independence in 1947.",
+    "key_messages": ["Freedom was earned with courage and sacrifice.", "79 years of nationhood as of 2026."],
+    "dos": ["Frame as proud and hopeful.", "Keep tone inclusive of all Pakistanis."],
+    "donts": ["Avoid partisan political framing."],
+    "sensitivity_flags": [],
+    "recommended_tone": "Proud, hopeful",
+    "audience": "Pakistani families and youth",
+    "sources": ["https://en.wikipedia.org/wiki/Independence_Day_(Pakistan)"],
+    "unverified_claims": []
+  },
+  "concepts": [
+    {
+      "concept_id": "independence-day-c1",
+      "archetype": "Emotional",
+      "core_message": "The dream of 1947 lives in every one of us",
+      "visual_direction": "Reverent, flag-inspired imagery of shared national memory",
+      "copy": {
+        "one_liner": "The dream of 1947 lives in every one of us.",
+        "caption": "Freedom was earned with courage and sacrifice. This Independence Day, we honour those who dreamed of a nation and remember that the dream is now ours to carry forward.",
+        "cta": "Share what Pakistan means to you.",
+        "hashtags": ["#Pakistan", "#IndependenceDay", "#14August"]
+      },
+      "visual": {
+        "color_palette": ["#F4A259", "#5B8E7D"],
+        "layout_instructions": "Portrait poster, flag-green gradient background",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Reverent national imagery in deep green tones",
+        "composition_notes": "Headline centered"
+      }
+    },
+    {
+      "concept_id": "independence-day-c2",
+      "archetype": "Educational",
+      "core_message": "79 years of Pakistan: a story worth knowing",
+      "visual_direction": "Historical timeline of nationhood milestones",
+      "copy": {
+        "one_liner": "79 years of Pakistan: a story worth knowing.",
+        "caption": "From 14 August 1947 to today — swipe through the milestones that shaped our nation. Knowing our history is how we protect our future.",
+        "cta": "Learn the moments that made us.",
+        "hashtags": ["#PakistanHistory", "#14August", "#Azadi"]
+      },
+      "visual": {
+        "color_palette": ["#5B8E7D", "#F4E285"],
+        "layout_instructions": "Landscape poster, timeline strip",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Clean historical timeline imagery",
+        "composition_notes": "Timeline along bottom"
+      }
+    },
+    {
+      "concept_id": "independence-day-c3",
+      "archetype": "Modern",
+      "core_message": "Green. Bold. Ours.",
+      "visual_direction": "Minimal flag-color graphic statement",
+      "copy": {
+        "one_liner": "Green. Bold. Ours.",
+        "caption": "A flag. A feeling. A future. Happy Independence Day, Pakistan.",
+        "cta": "Tag someone who makes you proud.",
+        "hashtags": ["#14August", "#PakistanZindabad"]
+      },
+      "visual": {
+        "color_palette": ["#2E2E2E", "#F4A259"],
+        "layout_instructions": "Square poster, bold minimal graphic",
+        "typography": {"heading": "Poppins SemiBold", "body": "Inter Regular"},
+        "image_prompt": "Stark minimal flag-inspired graphic",
+        "composition_notes": "Centered, high contrast"
+      }
+    }
+  ],
+  "review": {
+    "per_concept": [
+      {"concept_id": "independence-day-c1", "verdict": "pass", "notes": "re-reviewed after producer swapped to brand palette; hexes verified directly against brand-guidelines list"},
+      {"concept_id": "independence-day-c2", "verdict": "pass", "notes": "re-reviewed after producer swapped to brand palette; hexes verified directly against brand-guidelines list"},
+      {"concept_id": "independence-day-c3", "verdict": "pass", "notes": "re-reviewed after producer swapped to brand palette; hexes verified directly against brand-guidelines list"}
+    ],
+    "diversity_score": 8,
+    "cultural_review_completed": true,
+    "flags": []
+  }
+}

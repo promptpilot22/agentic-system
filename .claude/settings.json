@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/on-event-monitor.sh",
+            "timeout": 10,
+            "statusMessage": "Checking for due events to orchestrate..."
+          }
+        ]
+      }
+    ]
+  }
+}
